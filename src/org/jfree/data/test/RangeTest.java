@@ -29,7 +29,7 @@ public class RangeTest extends TestCase {
 
 	@After
 	protected void tearDown() throws Exception {
-		super.tearDown();
+		rangeObjectUnderTest = null;
 	}
 	
 	@Test

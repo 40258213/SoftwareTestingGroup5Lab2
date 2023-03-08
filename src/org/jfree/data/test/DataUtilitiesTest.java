@@ -133,6 +133,14 @@ public class DataUtilitiesTest extends DataUtilities {
 		row2DEmpty = null;
 		testArray = null;
 		numberArray = null;
+		emptyTestArray = null;
+		emptyNumberArray = null;
+		testArray2D = null;
+		numberArray2D = null;
+		emptyTestArray2D = null;
+		emptyNumberArray2D = null;
+		keyedValues = null;
+		keyedValuesWithNegatives = null;
 	}
 
 	@Test
@@ -512,6 +520,4 @@ public class DataUtilitiesTest extends DataUtilities {
 			fail("Exception occurred unexpectedly: " + e.getMessage());
 		}
 	}
-
-	
 }
